@@ -1,4 +1,6 @@
-first_num =int(input("Press number:  "))
-second_num =int(input("Press number:  "))
+from flask import Flask 
 
-print(first_num ** second_num)
+app = Flask(__name__)
+
+if __name__ == "__main__":
+    app.run(debug=True)
